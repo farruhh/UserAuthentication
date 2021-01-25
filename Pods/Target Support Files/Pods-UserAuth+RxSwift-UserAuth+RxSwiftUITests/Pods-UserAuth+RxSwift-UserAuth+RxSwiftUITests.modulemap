@@ -1,0 +1,6 @@
+framework module Pods_UserAuth_RxSwift_UserAuth_RxSwiftUITests {
+  umbrella header "Pods-UserAuth+RxSwift-UserAuth+RxSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
