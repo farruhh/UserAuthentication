@@ -31,7 +31,7 @@ class SplashViewController: UIViewController, Storyboarded {
                     DDLogDebug("Attemting to Auto-Login.. . ")
                     Auth.auth().signIn(withEmail: existUser.username, password: existUser.password, completion: {(success, error) in
                         if (error != nil) {
-                            AppSettings.sharedUser(User.init(existUser.username, password: existUser.password))
+                            AppSettings.sharedUser(User.init(username: existUser.username, password: existUser.password))
                             UIApplication.appDelegate().coordinator?.start()
                             return
                         } else {

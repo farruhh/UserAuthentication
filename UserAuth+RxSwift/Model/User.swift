@@ -13,7 +13,8 @@ class User {
     var username: String = ""
     var password: String = ""
     
-    init(_ username: String, password: String ) {
+    convenience init(username: String, password: String ) {
+        self.init()
         self.username = username
         self.password = password
     }

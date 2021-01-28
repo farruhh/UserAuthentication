@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "291D29E425B4B57600F83DA4"
-               BuildableName = "UserAuth+RxSwiftTests.xctest"
-               BlueprintName = "UserAuth+RxSwiftTests"
-               ReferencedContainer = "container:UserAuth+RxSwift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "291D29EF25B4B57600F83DA4"
-               BuildableName = "UserAuth+RxSwiftUITests.xctest"
-               BlueprintName = "UserAuth+RxSwiftUITests"
-               ReferencedContainer = "container:UserAuth+RxSwift.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

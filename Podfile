@@ -13,6 +13,10 @@ pod 'PromiseKit', '~> 6.8'
 pod 'KWDrawerController', '~> 4.2'
 pod 'KWDrawerController/RxSwift'
 
+## RX
+pod 'RxSwift'
+pod 'RxCocoa'
+
 ## LottieAnimation
   pod 'lottie-ios'
 
@@ -26,6 +30,8 @@ pod 'CocoaLumberjack/Swift'
   target 'UserAuth+RxSwiftTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'RxBlocking'
+    pod 'RxTest'
   end
 
   target 'UserAuth+RxSwiftUITests' do

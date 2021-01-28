@@ -17,9 +17,12 @@
 		291D2A0725B4BB1C00F83DA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D2A0625B4BB1C00F83DA4 /* LoginViewController.swift */; };
 		291D2A0F25B4BB2E00F83DA4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291D2A0E25B4BB2E00F83DA4 /* SignUpViewController.swift */; };
 		291D2A4325B5E82A00F83DA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 291D2A4225B5E82A00F83DA4 /* GoogleService-Info.plist */; };
+		29388F1A25C2AEB900A60386 /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F1925C2AEB900A60386 /* ValidationViewModel.swift */; };
+		29388F3C25C2B0C800A60386 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F3B25C2B0C800A60386 /* PasswordViewModel.swift */; };
+		29388F4125C2B0DA00A60386 /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F4025C2B0DA00A60386 /* EmailViewModel.swift */; };
+		29388F4625C2BD5C00A60386 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F4525C2BD5C00A60386 /* LogInViewModel.swift */; };
 		29AF8A8625BA09660079CD23 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8A8525BA09660079CD23 /* UserProfileViewController.swift */; };
 		29AF8A8B25BA0F050079CD23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8A8A25BA0F050079CD23 /* User.swift */; };
-		29AF8A9025BA0F560079CD23 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8A8F25BA0F560079CD23 /* UserViewModel.swift */; };
 		29AF8AB625BA371A0079CD23 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8AB525BA371A0079CD23 /* Coordinator.swift */; };
 		29AF8ABB25BA37290079CD23 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8ABA25BA37290079CD23 /* MainCoordinator.swift */; };
 		29AF8AC025BA373B0079CD23 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8ABF25BA373B0079CD23 /* Storyboarded.swift */; };
@@ -29,6 +32,7 @@
 		29AF8B6325BE691E0079CD23 /* Lottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 29AF8B6225BE691E0079CD23 /* Lottie.json */; };
 		29AF8B6925BE6B5D0079CD23 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8B6825BE6B5D0079CD23 /* AppSettings.swift */; };
 		29AF8B6F25BE74650079CD23 /* NetworksCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8B6E25BE74650079CD23 /* NetworksCommunicator.swift */; };
+		29AF8BA925C2538E0079CD23 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8BA825C2538E0079CD23 /* UITextFieldExtension.swift */; };
 		2E069237AE0BA79A3BD3CC24 /* Pods_UserAuth_RxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A383ECEFADE15D98F12BDBB /* Pods_UserAuth_RxSwiftTests.framework */; };
 		AA8EB623FE079839DA8CE6F3 /* Pods_UserAuth_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5632F24BFB49F5D70A5C31D /* Pods_UserAuth_RxSwift.framework */; };
 		F0AE4D522AB291A00ECB4FAC /* Pods_UserAuth_RxSwift_UserAuth_RxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B4DA470FEBB85F376EC8A2 /* Pods_UserAuth_RxSwift_UserAuth_RxSwiftUITests.framework */; };
@@ -69,9 +73,12 @@
 		291D2A0625B4BB1C00F83DA4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		291D2A0E25B4BB2E00F83DA4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		291D2A4225B5E82A00F83DA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29388F1925C2AEB900A60386 /* ValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
+		29388F3B25C2B0C800A60386 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		29388F4025C2B0DA00A60386 /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		29388F4525C2BD5C00A60386 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
 		29AF8A8525BA09660079CD23 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		29AF8A8A25BA0F050079CD23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		29AF8A8F25BA0F560079CD23 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		29AF8AB525BA371A0079CD23 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		29AF8ABA25BA37290079CD23 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		29AF8ABF25BA373B0079CD23 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
@@ -81,6 +88,7 @@
 		29AF8B6225BE691E0079CD23 /* Lottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lottie.json; sourceTree = "<group>"; };
 		29AF8B6825BE6B5D0079CD23 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		29AF8B6E25BE74650079CD23 /* NetworksCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworksCommunicator.swift; sourceTree = "<group>"; };
+		29AF8BA825C2538E0079CD23 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		34B4DA470FEBB85F376EC8A2 /* Pods_UserAuth_RxSwift_UserAuth_RxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserAuth_RxSwift_UserAuth_RxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A69FB4E60F874F9C558C29 /* Pods-UserAuth+RxSwift-UserAuth+RxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuth+RxSwift-UserAuth+RxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-UserAuth+RxSwift-UserAuth+RxSwiftUITests/Pods-UserAuth+RxSwift-UserAuth+RxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A383ECEFADE15D98F12BDBB /* Pods_UserAuth_RxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserAuth_RxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,18 +165,18 @@
 		291D29D125B4B57200F83DA4 /* UserAuth+RxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				29388F4D25C2DF2100A60386 /* Model */,
+				29388F1825C2AE9000A60386 /* ViewModel */,
+				291D2A0525B4BAE500F83DA4 /* View */,
 				29AF8B6D25BE73FA0079CD23 /* NetworksManager */,
 				29AF8B6725BE6B2D0079CD23 /* Configurations */,
 				29AF8B1B25BE58000079CD23 /* Utilities */,
 				29AF8AAF25BA36AC0079CD23 /* Coordinator */,
 				291D2A1325B4BB3C00F83DA4 /* Assets */,
-				291D2A0525B4BAE500F83DA4 /* ViewControllers */,
 				291D29D225B4B57200F83DA4 /* AppDelegate.swift */,
 				291D29D425B4B57200F83DA4 /* SceneDelegate.swift */,
 				291D29E025B4B57500F83DA4 /* Info.plist */,
 				291D2A4225B5E82A00F83DA4 /* GoogleService-Info.plist */,
-				29AF8A8A25BA0F050079CD23 /* User.swift */,
-				29AF8A8F25BA0F560079CD23 /* UserViewModel.swift */,
 			);
 			path = "UserAuth+RxSwift";
 			sourceTree = "<group>";
@@ -191,14 +199,14 @@
 			path = "UserAuth+RxSwiftUITests";
 			sourceTree = "<group>";
 		};
-		291D2A0525B4BAE500F83DA4 /* ViewControllers */ = {
+		291D2A0525B4BAE500F83DA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				29AF8B4625BE66550079CD23 /* Login_SignUp */,
 				29AF8A8525BA09660079CD23 /* UserProfileViewController.swift */,
 				29AF8B2125BE59CC0079CD23 /* SplashViewController.swift */,
 			);
-			path = ViewControllers;
+			path = View;
 			sourceTree = "<group>";
 		};
 		291D2A1325B4BB3C00F83DA4 /* Assets */ = {
@@ -210,6 +218,25 @@
 				29AF8B6225BE691E0079CD23 /* Lottie.json */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		29388F1825C2AE9000A60386 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29388F1925C2AEB900A60386 /* ValidationViewModel.swift */,
+				29388F3B25C2B0C800A60386 /* PasswordViewModel.swift */,
+				29388F4025C2B0DA00A60386 /* EmailViewModel.swift */,
+				29388F4525C2BD5C00A60386 /* LogInViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29388F4D25C2DF2100A60386 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29AF8A8A25BA0F050079CD23 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		29AF8AAF25BA36AC0079CD23 /* Coordinator */ = {
@@ -227,6 +254,7 @@
 			children = (
 				29AF8B1C25BE588D0079CD23 /* Storyboard+VC_Initiator.swift */,
 				29AF8B2625BE5D0E0079CD23 /* UIApplicationCustom.swift */,
+				29AF8BA825C2538E0079CD23 /* UITextFieldExtension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -296,6 +324,7 @@
 				291D29E125B4B57600F83DA4 /* Sources */,
 				291D29E225B4B57600F83DA4 /* Frameworks */,
 				291D29E325B4B57600F83DA4 /* Resources */,
+				54A17070FC61881DE5E8E513 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -465,6 +494,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		54A17070FC61881DE5E8E513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserAuth+RxSwiftTests/Pods-UserAuth+RxSwiftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UserAuth+RxSwiftTests/Pods-UserAuth+RxSwiftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UserAuth+RxSwiftTests/Pods-UserAuth+RxSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5F0E2D0DF4D6FAE36CDF732F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -507,17 +553,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				29AF8AB625BA371A0079CD23 /* Coordinator.swift in Sources */,
+				29388F3C25C2B0C800A60386 /* PasswordViewModel.swift in Sources */,
 				29AF8B6F25BE74650079CD23 /* NetworksCommunicator.swift in Sources */,
 				291D2A0725B4BB1C00F83DA4 /* LoginViewController.swift in Sources */,
+				29388F1A25C2AEB900A60386 /* ValidationViewModel.swift in Sources */,
 				29AF8B6925BE6B5D0079CD23 /* AppSettings.swift in Sources */,
 				29AF8A8625BA09660079CD23 /* UserProfileViewController.swift in Sources */,
 				29AF8B2225BE59CC0079CD23 /* SplashViewController.swift in Sources */,
 				29AF8A8B25BA0F050079CD23 /* User.swift in Sources */,
 				291D29D325B4B57200F83DA4 /* AppDelegate.swift in Sources */,
+				29388F4125C2B0DA00A60386 /* EmailViewModel.swift in Sources */,
 				29AF8B1D25BE588D0079CD23 /* Storyboard+VC_Initiator.swift in Sources */,
+				29AF8BA925C2538E0079CD23 /* UITextFieldExtension.swift in Sources */,
 				291D29D525B4B57200F83DA4 /* SceneDelegate.swift in Sources */,
 				29AF8B2725BE5D0E0079CD23 /* UIApplicationCustom.swift in Sources */,
-				29AF8A9025BA0F560079CD23 /* UserViewModel.swift in Sources */,
+				29388F4625C2BD5C00A60386 /* LogInViewModel.swift in Sources */,
 				29AF8AC025BA373B0079CD23 /* Storyboarded.swift in Sources */,
 				29AF8ABB25BA37290079CD23 /* MainCoordinator.swift in Sources */,
 				291D2A0F25B4BB2E00F83DA4 /* SignUpViewController.swift in Sources */,
