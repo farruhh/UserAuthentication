@@ -21,6 +21,15 @@
 		29388F3C25C2B0C800A60386 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F3B25C2B0C800A60386 /* PasswordViewModel.swift */; };
 		29388F4125C2B0DA00A60386 /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F4025C2B0DA00A60386 /* EmailViewModel.swift */; };
 		29388F4625C2BD5C00A60386 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29388F4525C2BD5C00A60386 /* LogInViewModel.swift */; };
+		293CAE3025C6722B000FB197 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CAE2F25C6722B000FB197 /* Alert.swift */; };
+		293CAEA925C75D0D000FB197 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CAEA825C75D0D000FB197 /* CustomTabBarController.swift */; };
+		293CAEAE25C75E84000FB197 /* CryptoHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CAEAD25C75E84000FB197 /* CryptoHomePageViewController.swift */; };
+		293CAEB325C75F39000FB197 /* CryptoWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CAEB225C75F39000FB197 /* CryptoWalletViewController.swift */; };
+		293CAEBB25C75FC2000FB197 /* CryptoWalletLiskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CAEBA25C75FC2000FB197 /* CryptoWalletLiskViewController.swift */; };
+		293CAEC025C76004000FB197 /* CryptoWalletAddMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293CAEBF25C76004000FB197 /* CryptoWalletAddMoneyViewController.swift */; };
+		29946CA025CAF6A400FCC702 /* CubicChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29946C9F25CAF6A400FCC702 /* CubicChart.swift */; };
+		29946CA525CAF6D900FCC702 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29946CA425CAF6D900FCC702 /* BarChart.swift */; };
+		29946CAA25CAF6E900FCC702 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29946CA925CAF6E900FCC702 /* PieChart.swift */; };
 		29AF8A8625BA09660079CD23 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8A8525BA09660079CD23 /* UserProfileViewController.swift */; };
 		29AF8A8B25BA0F050079CD23 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8A8A25BA0F050079CD23 /* User.swift */; };
 		29AF8AB625BA371A0079CD23 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AF8AB525BA371A0079CD23 /* Coordinator.swift */; };
@@ -77,6 +86,15 @@
 		29388F3B25C2B0C800A60386 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
 		29388F4025C2B0DA00A60386 /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
 		29388F4525C2BD5C00A60386 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		293CAE2F25C6722B000FB197 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		293CAEA825C75D0D000FB197 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		293CAEAD25C75E84000FB197 /* CryptoHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoHomePageViewController.swift; sourceTree = "<group>"; };
+		293CAEB225C75F39000FB197 /* CryptoWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletViewController.swift; sourceTree = "<group>"; };
+		293CAEBA25C75FC2000FB197 /* CryptoWalletLiskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletLiskViewController.swift; sourceTree = "<group>"; };
+		293CAEBF25C76004000FB197 /* CryptoWalletAddMoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoWalletAddMoneyViewController.swift; sourceTree = "<group>"; };
+		29946C9F25CAF6A400FCC702 /* CubicChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicChart.swift; sourceTree = "<group>"; };
+		29946CA425CAF6D900FCC702 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		29946CA925CAF6E900FCC702 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		29AF8A8525BA09660079CD23 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		29AF8A8A25BA0F050079CD23 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		29AF8AB525BA371A0079CD23 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -166,8 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				29388F4D25C2DF2100A60386 /* Model */,
-				29388F1825C2AE9000A60386 /* ViewModel */,
 				291D2A0525B4BAE500F83DA4 /* View */,
+				29388F1825C2AE9000A60386 /* ViewModel */,
 				29AF8B6D25BE73FA0079CD23 /* NetworksManager */,
 				29AF8B6725BE6B2D0079CD23 /* Configurations */,
 				29AF8B1B25BE58000079CD23 /* Utilities */,
@@ -202,9 +220,15 @@
 		291D2A0525B4BAE500F83DA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				29946C9E25CAF67100FCC702 /* ChartViews */,
 				29AF8B4625BE66550079CD23 /* Login_SignUp */,
 				29AF8A8525BA09660079CD23 /* UserProfileViewController.swift */,
 				29AF8B2125BE59CC0079CD23 /* SplashViewController.swift */,
+				293CAEA825C75D0D000FB197 /* CustomTabBarController.swift */,
+				293CAEAD25C75E84000FB197 /* CryptoHomePageViewController.swift */,
+				293CAEB225C75F39000FB197 /* CryptoWalletViewController.swift */,
+				293CAEBA25C75FC2000FB197 /* CryptoWalletLiskViewController.swift */,
+				293CAEBF25C76004000FB197 /* CryptoWalletAddMoneyViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -239,6 +263,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		29946C9E25CAF67100FCC702 /* ChartViews */ = {
+			isa = PBXGroup;
+			children = (
+				29946C9F25CAF6A400FCC702 /* CubicChart.swift */,
+				29946CA425CAF6D900FCC702 /* BarChart.swift */,
+				29946CA925CAF6E900FCC702 /* PieChart.swift */,
+			);
+			path = ChartViews;
+			sourceTree = "<group>";
+		};
 		29AF8AAF25BA36AC0079CD23 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +289,7 @@
 				29AF8B1C25BE588D0079CD23 /* Storyboard+VC_Initiator.swift */,
 				29AF8B2625BE5D0E0079CD23 /* UIApplicationCustom.swift */,
 				29AF8BA825C2538E0079CD23 /* UITextFieldExtension.swift */,
+				293CAE2F25C6722B000FB197 /* Alert.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -555,21 +590,30 @@
 				29AF8AB625BA371A0079CD23 /* Coordinator.swift in Sources */,
 				29388F3C25C2B0C800A60386 /* PasswordViewModel.swift in Sources */,
 				29AF8B6F25BE74650079CD23 /* NetworksCommunicator.swift in Sources */,
+				293CAEBB25C75FC2000FB197 /* CryptoWalletLiskViewController.swift in Sources */,
 				291D2A0725B4BB1C00F83DA4 /* LoginViewController.swift in Sources */,
 				29388F1A25C2AEB900A60386 /* ValidationViewModel.swift in Sources */,
 				29AF8B6925BE6B5D0079CD23 /* AppSettings.swift in Sources */,
+				29946CA025CAF6A400FCC702 /* CubicChart.swift in Sources */,
 				29AF8A8625BA09660079CD23 /* UserProfileViewController.swift in Sources */,
 				29AF8B2225BE59CC0079CD23 /* SplashViewController.swift in Sources */,
+				293CAEAE25C75E84000FB197 /* CryptoHomePageViewController.swift in Sources */,
+				293CAEA925C75D0D000FB197 /* CustomTabBarController.swift in Sources */,
+				293CAEC025C76004000FB197 /* CryptoWalletAddMoneyViewController.swift in Sources */,
 				29AF8A8B25BA0F050079CD23 /* User.swift in Sources */,
 				291D29D325B4B57200F83DA4 /* AppDelegate.swift in Sources */,
 				29388F4125C2B0DA00A60386 /* EmailViewModel.swift in Sources */,
 				29AF8B1D25BE588D0079CD23 /* Storyboard+VC_Initiator.swift in Sources */,
+				29946CAA25CAF6E900FCC702 /* PieChart.swift in Sources */,
 				29AF8BA925C2538E0079CD23 /* UITextFieldExtension.swift in Sources */,
 				291D29D525B4B57200F83DA4 /* SceneDelegate.swift in Sources */,
+				29946CA525CAF6D900FCC702 /* BarChart.swift in Sources */,
 				29AF8B2725BE5D0E0079CD23 /* UIApplicationCustom.swift in Sources */,
 				29388F4625C2BD5C00A60386 /* LogInViewModel.swift in Sources */,
+				293CAEB325C75F39000FB197 /* CryptoWalletViewController.swift in Sources */,
 				29AF8AC025BA373B0079CD23 /* Storyboarded.swift in Sources */,
 				29AF8ABB25BA37290079CD23 /* MainCoordinator.swift in Sources */,
+				293CAE3025C6722B000FB197 /* Alert.swift in Sources */,
 				291D2A0F25B4BB2E00F83DA4 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

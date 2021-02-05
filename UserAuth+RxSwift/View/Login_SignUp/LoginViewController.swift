@@ -18,18 +18,18 @@ class LoginViewController: UIViewController, Storyboarded {
     weak var coordinator: MainCoordinator?
     var userViewModel: LogInViewModel = LogInViewModel()
     let disposeBag = DisposeBag()
+    @IBOutlet weak var forgotPasswordLabel: UILabel!
     
     //MARK: - viewDidLoad()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.layer.backgroundColor = UIColor(red: 34.0, green: 18.0, blue: 99.0, alpha: 1.0).cgColor
         
-//        self.emailTextField.delegate = self
-//        self.passwordTextField.delegate = self
         self.emailTextField.placeholder = "Email or Username"
         self.passwordTextField.placeholder = "Password"
         self.passwordTextField.isSecureTextEntry = true
-        self.emailTextField.applyCustomEffect()
-        self.passwordTextField.applyCustomEffect()
+//        self.emailTextField.applyCustomEffect()
+//        self.passwordTextField.applyCustomEffect()
         
         self.bindToViewModel()
         self.getCallbacks()
@@ -41,8 +41,16 @@ class LoginViewController: UIViewController, Storyboarded {
             self.emailTextField.resignFirstResponder()
             self.passwordTextField.resignFirstResponder()
         }).subscribe(onNext: {[unowned self] in
-            if self.userViewModel.validateCredentials() {
-                self.userViewModel.loginUser()
+            do {
+                try self.userViewModel.loginUser()
+            } catch LoginError.inCompleteForm {
+                    Alert().showAlert(title: "Incomplete Form.", message: "Email and Password cannot be blank!", vc: self)
+            } catch LoginError.inValidEmail {
+                Alert().showAlert(title: "Invalid Email.", message: "Enter a valid Email!", vc: self)
+            } catch LoginError.inValidPassword {
+                Alert().showAlert(title: "Invalid Password.", message: "Password is invalid!", vc: self)
+            } catch {
+                Alert().showAlert(title: "Something went wrong!", message: "Try Again.", vc: self)
             }
         }).disposed(by: disposeBag)
     }

@@ -26,4 +26,16 @@ extension UIStoryboard {
     class func userProfileViewController() -> UserProfileViewController {
         return mainStoryboard().instantiateViewController(withIdentifier: "UserProfileViewController") as! UserProfileViewController
     }
+    class func homePageViewController() -> CryptoHomePageViewController {
+        return mainStoryboard().instantiateViewController(withIdentifier: "CryptoHomePageViewController") as! CryptoHomePageViewController
+    }
+    class func walletViewController() -> CryptoWalletViewController {
+        return mainStoryboard().instantiateViewController(withIdentifier: "CryptoWalletViewController") as! CryptoWalletViewController
+    }
+    class func walletLiskViewController() -> CryptoWalletLiskViewController {
+        return mainStoryboard().instantiateViewController(withIdentifier: "CryptoWalletLiskViewController") as! CryptoWalletLiskViewController
+    }
+    class func walletAddViewController() -> CryptoWalletAddMoneyViewController {
+        return mainStoryboard().instantiateViewController(withIdentifier: "CryptoWalletAddMoneyViewController") as! CryptoWalletAddMoneyViewController
+    }
 }

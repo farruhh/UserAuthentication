@@ -19,11 +19,6 @@ extension Storyboarded where Self: UIViewController {
         let id = String (describing: self)
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
-        if #available(iOS 13.0, *) {
-            return storyboard.instantiateViewController(identifier: id) as! Self
-        } else {
-            // Fallback on earlier versions
-        }
-        return instantiate()
+        return storyboard.instantiateViewController(identifier: id) as! Self
     }
 }

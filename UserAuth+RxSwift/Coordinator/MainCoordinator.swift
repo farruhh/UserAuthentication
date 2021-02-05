@@ -21,8 +21,9 @@ class MainCoordinator: Coordinator {
     
     /// `Initial VC initialization`
     func start() {
+        
         UIApplication.appDelegate().window?.rootViewController = self.navigationController
-        let vc = UserProfileViewController.instantiate()
+        let vc = CustomTabBarController.instantiate()
         vc.coordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
@@ -39,7 +40,7 @@ class MainCoordinator: Coordinator {
     }
     func gotoUserProfile() {
         let vc = UserProfileViewController.instantiate()
-        UIApplication.userProfileViewController()
         vc.coordinator = self
+        UIApplication.userProfileViewController()
     }
 }

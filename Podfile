@@ -19,6 +19,9 @@ pod 'RxCocoa'
 
 ## LottieAnimation
   pod 'lottie-ios'
+  
+## Chart
+  pod 'Charts'
 
 ##FireBase
 pod 'Firebase/Analytics'

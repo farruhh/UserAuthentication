@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (5.2.2)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
   - CocoaLumberjack/Core (3.7.0)
   - CocoaLumberjack/Swift (3.7.0):
     - CocoaLumberjack/Core
@@ -106,6 +109,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.1)
+  - Charts
   - CocoaLumberjack/Swift
   - Firebase/Analytics
   - Firebase/Auth
@@ -122,6 +126,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Charts
     - CocoaLumberjack
     - Firebase
     - FirebaseAnalytics
@@ -147,6 +152,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
   Firebase: c23a36d9e4cdf7877dfcba8dd0c58add66358999
   FirebaseAnalytics: 3bb096873ee0d7fa4b6c70f5e9166b6da413cc7f
@@ -170,6 +176,6 @@ SPEC CHECKSUMS:
   RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 3c5691445ca4a6e447c8d1e16d16afd07d0b37f0
+PODFILE CHECKSUM: f02e9c6bc55a29d7bb42f2cb8e473f733f164d41
 
 COCOAPODS: 1.9.3

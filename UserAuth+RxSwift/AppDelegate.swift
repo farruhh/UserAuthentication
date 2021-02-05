@@ -21,9 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UIStoryboard.splashViewController()
         window?.makeKeyAndVisible()
-//      coordinator?.start()
-        
         FirebaseApp.configure()
+//        coordinator?.start()
+        
         return true
     }
 }

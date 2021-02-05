@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 
 class EmailViewModel: ValidationViewModel {
-    var errorMessage: String = "Enter valid email"
+    var errorMessage: String = ""
     var data: BehaviorRelay<String> = BehaviorRelay(value: "")
     var errorValue: BehaviorRelay<String?> = BehaviorRelay(value: "")
     

@@ -21,7 +21,10 @@ extension Firebase.Auth {
     func loginUser(email: String, password: String) -> Observable<Result<Int, Error>> {
         Observable.create { observer in
             self.signIn(withEmail: email, password: password) { (success, error) in
-                observer.onCompleted()
+                let username = success?.rx.base.user
+                let error = error.publisher
+                
+                print("Signedin User:\(String(describing: username?.email))")
             }
             return Disposables.create()
         }
